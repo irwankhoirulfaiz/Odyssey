@@ -1,0 +1,20 @@
+# Kredensial & env var - JANGAN pernah di-commit
+.env
+.env.*
+!.env.example
+*firebase*.json
+serviceAccountKey.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
